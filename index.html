@@ -87,7 +87,7 @@
             </div>
         </section>
          <!-- Hero section  -->
-        <section class=" pb-[100px] md:pt-[87px] md:pb-[120px] xl:pt-[100px] xl:pb-[160px] ">
+        <section class="  pb-[100px] md:pt-[87px] md:pb-[120px] xl:pt-[100px] xl:pb-[160px] ">
             <div class="containers">
                 <div class=" max-w-[321px] md:max-w-[575px] mx-auto">
                     <h2 class="font-semibold text-[24px] md:text-[36px] mb-[6px] md:mb-[10px] text-center text-black  ">Choose the car of your dreams</h2>
@@ -267,13 +267,15 @@
                         </div>
                     </div>
                 </div>
-                <button class="font-medium text-[18px] text-white py-[18px] px-[30px] rounded-[100px] bg-[#299764] mt-[45px] ml-[35%]  md:ml-[40%] ">View all cars</button>
+                <div class="flex justify-center">
+                    <button class="font-medium text-[18px] text-white py-[18px] px-[30px] rounded-[100px] bg-[#299764] mt-[30px] xl:mt-[40px] ">View all cars</button>
+                </div>
             </div>
         </section>
         <!-- community  section  -->
-          <!-- <section class="py-[100px] bg-[#F5F5F5]">
-            <div class="containers md:flex flex-col xl:flex">
-                <div class="w-[320px] bg-white py-[70px] pl-[70px]  rounded-tl-[20px] rounded-bl-[20px]">
+        <section class=" py-[30px] md:py-[30px] xl:py-[100px] bg-[#F5F5F5]"> 
+            <div class="containers  hidden xl:flex">
+                <div class="w-[470px] bg-white py-[70px] pl-[70px]  rounded-tl-[20px] rounded-bl-[20px]">
                     <div class="flex gap-[8px] items-center">
                         <a href="#">
                             <img src="./images/google-img.svg" alt="google img" width="10" height="10">
@@ -281,14 +283,44 @@
                         <a href="#" class="text-[#4285F4]">From Google</a>
                     </div>
                     <h2 class="font-medium text-[36px] leading-[50px] text-black mt-[16px] mb-[30px]">Hear what the community is saying</h2>
-                    <hr>
+                    <hr class="w-[80%] h-1 bg-gradient-to-r from-[#EA4335] via-[#FBBC05] via-[#34A853] to-[#4285F4] border-0 rounded-full" />
                     <p class="font-medium text-[14px] text-black mt-[30px] mb-[16px]">More interesting reviews on Instagram</p>
-                    <button class="border-[2px] py-[18px] px-[50px] rounded-[100px]">Instagram</button>
+                   <div class="p-[2px] rounded-[100px] bg-gradient-to-r from-[#F9ED32] via-[#EE2A7B] via-[#D22A8A] via-[#8B2AB2] via-[#1B2AF0] to-[#002AFF] inline-block">
+                            <button class="w-full h-full bg-white text-black py-[18px] px-[50px] rounded-[100px]">
+                              Instagram
+                            </button>
+                           
+                    </div>
                 </div>
                 <img class="bg-[#299764] pt-[50px] pl-[40px] pb-[96px] w-[900px] rounded-tr-[10px] rounded-br-[10px]" src="./images/Frame-34670.png" alt="logo" width="420" height="333">
             </div>
+            <div class="containers  md:flex flex-col xl:hidden ">
+                <div class=" md:flex justify-between bg-white !mt-[30px]  pt-[24px] pl-[20px]  md:py-[30px] md:px-[24px]  rounded-tl-[20px] rounded-tr-[20px]">
+                    <div class="flex flex-col md:w-[300px] w-[180px] ">
+                        <div class="flex  gap-[8px] items-center">
+                            <a href="#">
+                                <img src="./images/google-img.svg" alt="google img" width="10" height="10">
+                            </a>
+                            <a href="#" class="text-[#4285F4]">From Google</a>
+                        </div>
+                        <h2 class=" font-medium text-[38px] md:text-[24px] leading-[50px]  md:leading-[36px] text-black mt-[16px] mb-[30px] ">Hear what the community is saying</h2>
+                    </div>
+                    <div class=" hidden md:flex border-[2px] md:h-[108px] "></div>
+                    <div class="md:flex flex-col justify-end">
+                        <hr class="md:hidden w-[90%] h-[2px] h-0.5 bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
+                        <p class="font-medium text-[14px] text-black mt-[10px] mb-[16px]">More interesting reviews on Instagram</p>
+                            <div class=" mb-[24px] p-[2px] rounded-[100px] bg-gradient-to-r from-[#F9ED32] via-[#EE2A7B] via-[#D22A8A] via-[#8B2AB2] via-[#1B2AF0] to-[#002AFF] inline-block">
+                                <button class="w-full h-full bg-white text-black py-[18px] px-[50px] rounded-[100px]">
+                                  Instagram
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <img class="hidden md:flex xl:hidden bg-[#299764] pt-[30px]  ml-[20px] md:pl-[24px] pb-[96px] md:w-[746px]  rounded-br-[10px]" src="./images/Frame-34670.png" alt="logo" width="420" height="333">
+                 <img class=" md:hidden  bg-[#299764]  py-[20px] pl-[16px] mx-auto" src="./images/mobile-img.png" alt="mobile logo" width="326" height="380" >
          </section>   
-          <section class="py-[160px]">
+          <!-- <section class="py-[160px]">
             <div class="containers">
                 <p class="font-medium text-[24px] text-black">More than 50 brands of cars</p>
                 <div class="flex mt-[34px] gap-[66px]">
@@ -300,7 +332,7 @@
                     <img src="./images/car-logo-6.png" alt="car logo" width="140" height="40">
                 </div>
             </div>
-         </section>  -->
+         </section> -->
     </main>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -317,3 +349,5 @@
       </script>
 </body>
 </html>
+
+
