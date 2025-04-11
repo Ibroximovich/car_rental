@@ -37,3 +37,13 @@
     border-radius: 20px;
     height: 500px;
   }
+  @media (max-width:768px){
+    .hero{
+      background-image: url(../images/table-img.png);
+    }
+  }
+  @media (max-width:640px){
+    .hero{
+      background-image: url(../images/mobile-img-car.png);
+    }
+  }
