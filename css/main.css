@@ -54,10 +54,13 @@
     background-size: 250px 250px;
   }
   @media (max-width:640px){
-     .img{
-      background-image: url(../images/orqa-fon.png);
-      background-size: 100px 100px;
+     .div{
       background-position: top right;
+      background-image: url(../images/orqa-fon.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: 100px 250px;
+      
      }
   }
   
